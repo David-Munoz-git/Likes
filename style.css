@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Balsamiq sans;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* nav start */
+
+nav {
+    background-color: black;
+}
+nav h1 {
+    color: white;
+}
+
+/* nav end */
+
+/* feed start */
+.feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* feed end */
+
+/* feed container start */
+.feed-container {
+display: flex;
+}
+
+/* feed container end */
+
+/* profie start */
+.profile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    margin: 10px;
+    height: 180px;
+}
+
+.profile img {
+    height: 64px;
+    width: 64px;
+    margin: 20px;
+    position: relative;
+    left: 45px;
+}
+
+.profile h3 {
+    margin-top: 10px;
+}
+/* profile end */
+
+/* likes section start */
+.likes-section {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 400px;
+    width: 100px;
+}
+
+/* niel start */
+.niel{
+    border: solid 2px black;
+    min-height: 120px;
+}
+
+.inner-niel {
+    display: flex;
+    margin: 20px;
+}
+
+.inner-niel h3 {
+    flex: 1;
+    margin-top: 10px;
+}
+.inner-niel p{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.niel p {
+    margin-left: 20px;
+}
+
+.first-like {
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+    padding: .5em 1em;
+}
+/* niel end */
+
+/* nichole start */
+.nichole{
+    border: solid 2px black;
+    min-height: 120px;
+}
+
+.inner-nichole {
+    display: flex;
+    margin: 20px;
+}
+
+.inner-nichole h3 {
+    flex: 1;
+    margin-top: 10px;
+}
+.inner-nichole p{
+    margin-right: 20px;
+}
+
+.nichole p {
+    margin-left: 20px;
+}
+.second-like {
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+    padding: .5em 1em;
+
+}
+/* nichole end */
+
+/* jim start */
+.jim{
+    border: solid 2px black;
+    min-height: 120px;
+}
+
+.inner-jim {
+    display: flex;
+    margin: 20px;
+}
+
+.inner-jim h3 {
+    flex: 1;
+    margin-top: 10px;
+}
+.inner-jim p{
+    margin-right: 20px;
+}
+
+.jim p {
+    margin-left: 20px;
+}
+
+.third-like {
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+    padding: .5em 1em;
+}
+/* jim end */
